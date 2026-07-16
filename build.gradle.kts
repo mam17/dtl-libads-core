@@ -5,5 +5,5 @@ plugins {
 }
 
 allprojects {
-    group = "com.github.dtl-kibads-core" // đổi thành username/org GitHub của bạn
+    group = "com.github.mam17"
 }

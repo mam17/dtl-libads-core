@@ -61,8 +61,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
 
-                groupId = "com.github.your-github-username"
-                artifactId = "libads-core"
+                groupId = "com.github.mam17"
+                artifactId = "dtl-libads-core"
                 version = "1.0.0"
             }
         }

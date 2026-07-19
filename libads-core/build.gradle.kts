@@ -63,7 +63,7 @@ afterEvaluate {
 
                 groupId = "com.github.mam17"
                 artifactId = "dtl-libads-core"
-                version = "1.0.0"
+                version = System.getenv("VERSION_NAME") ?: "1.0.0"
             }
         }
     }
